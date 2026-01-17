@@ -1,5 +1,5 @@
 {
-  "name": "电表信息管理系统",
+  "name": "电表轮换信息管理系统",
   "short_name": "MeterInfo",
   "description": "智能抄表与电表信息管理解决方案：OCR 识别、移动采集、历史数据统计分析。",
   "start_url": "/",
@@ -30,7 +30,7 @@
       "sizes": "1200x800",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "电表信息管理系统界面"
+      "label": "电表轮换信息管理系统界面"
     }
   ],
   "related_applications": [],

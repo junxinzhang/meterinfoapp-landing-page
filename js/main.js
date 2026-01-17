@@ -1,5 +1,5 @@
 /**
- * 电表信息管理系统 - 落地页交互脚本
+ * 电表轮换信息管理系统 - 落地页交互脚本
  * MeterInfo Landing Page JavaScript
  */
 
@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   // Console welcome message
-  console.log('%c电表信息管理系统 - MeterInfo', 'color: #10b981; font-size: 20px; font-weight: bold;');
+  console.log('%c电表轮换信息管理系统 - MeterInfo', 'color: #10b981; font-size: 20px; font-weight: bold;');
   console.log('%c智能抄表 · OCR识别 · 移动采集', 'color: #64748b; font-size: 12px;');
 });
 
