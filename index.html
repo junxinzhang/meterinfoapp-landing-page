@@ -183,7 +183,7 @@
             "name": "OCR 识别准确率如何？",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "系统采用先进的视觉语言模型进行 OCR 识别，包括 Qwen2.5-VL 和 GLM-4V，识别准确率高，支持各种电表表盘照片。"
+              "text": "系统采用先进的视觉语言模型进行 OCR 识别，包括 Qwen-72B-VL 和 Qwen-32B-VL，识别准确率高，支持各种电表表盘照片。"
             }
           }
         ]
@@ -217,17 +217,14 @@
 
 <header class="sticky top-0 z-40 bg-slate-900/95 backdrop-blur-md border-b border-slate-700">
   <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-    <div class="flex items-center gap-4">
-      <div class="flex items-center gap-2">
-        <div class="flex gap-1">
-          <span class="w-3 h-3 rounded-sm bg-amber-400"></span>
-          <span class="w-3 h-3 rounded-sm bg-blue-400"></span>
-        </div>
-        <div class="flex gap-0.5">
-          <span class="w-2 h-4 bg-emerald-400"></span>
-          <span class="w-2 h-6 bg-emerald-500"></span>
-          <span class="w-2 h-5 bg-emerald-400"></span>
-        </div>
+    <div class="flex items-center gap-3">
+      <div class="flex h-10 w-10 items-center justify-center rounded-xl border border-emerald-400/30 bg-emerald-500/10">
+        <svg viewBox="0 0 24 24" class="h-6 w-6 text-emerald-300" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="8"></circle>
+          <path d="M8 14a4 4 0 0 1 8 0"></path>
+          <path d="M12 14l2.5-3.5"></path>
+          <path d="M10.5 6.5l-1.5 3h2.5l-1.5 3"></path>
+        </svg>
       </div>
       <div class="text-xl font-bold text-white">电表信息管理系统</div>
     </div>
@@ -373,7 +370,7 @@
         </div>
         <div>
           <h3 class="font-medium text-slate-800">AI-OCR 智能识别</h3>
-          <p class="mt-2 text-slate-600 text-sm">采用 Qwen2.5-VL 和 GLM-4V 视觉语言模型，自动识别电表读数，支持批量处理，大幅减少人工录入。</p>
+          <p class="mt-2 text-slate-600 text-sm">采用 Qwen-72B-VL 和 Qwen-32B-VL 视觉语言模型，自动识别电表读数，支持批量处理，大幅减少人工录入。</p>
         </div>
       </div>
       <div class="card flex items-start gap-4">
@@ -521,7 +518,7 @@
     <div class="arch-card">
       <div class="arch-step">4</div>
       <h4 class="font-medium text-slate-800 mt-4">AI 识别</h4>
-      <p class="mt-2 text-slate-600 text-sm">集成 SiliconFlow API，调用 Qwen2.5-VL 和 GLM-4V 模型，实现电表读数智能识别。</p>
+      <p class="mt-2 text-slate-600 text-sm">集成 SiliconFlow API，调用 Qwen-72B-VL 和 Qwen-32B-VL 模型，实现电表读数智能识别。</p>
       <div class="mt-4 flex items-center gap-2 text-xs text-slate-500">
         <i class="ri-robot-line"></i>
         <span>Vision Language Model</span>
@@ -639,8 +636,8 @@
         <div itemprop="text" class="text-slate-600 text-sm leading-relaxed">
           <p>系统采用先进的视觉语言模型进行 OCR 识别：</p>
           <ul class="mt-2 space-y-1 list-disc list-inside">
-            <li><strong>高精度模型</strong>：Qwen2.5-VL-7B-Instruct，识别准确率更高</li>
-            <li><strong>免费模型</strong>：GLM-4.1V-9B-Thinking，性价比高</li>
+            <li><strong>高精度模型</strong>：Qwen-72B-VL，识别准确率更高</li>
+            <li><strong>轻量模型</strong>：Qwen-32B-VL，性价比高</li>
           </ul>
           <p class="mt-2">在光线良好、表盘清晰的情况下，识别准确率可达 95% 以上。系统保留原图，可随时人工复核。</p>
         </div>
