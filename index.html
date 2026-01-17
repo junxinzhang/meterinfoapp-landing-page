@@ -12,30 +12,51 @@
   <meta name="author" content="Jason Zhang" />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
   <meta name="googlebot" content="index, follow" />
+  <meta name="bingbot" content="index, follow" />
   <meta name="theme-color" content="#0f172a" />
   <meta name="color-scheme" content="light dark" />
+  <meta name="generator" content="Custom Build" />
+  <meta name="format-detection" content="telephone=no" />
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://meterinfoapp.junxinzhang.com/" />
+
+  <!-- Language Alternates -->
+  <link rel="alternate" hreflang="zh-CN" href="https://meterinfoapp.junxinzhang.com/" />
+  <link rel="alternate" hreflang="x-default" href="https://meterinfoapp.junxinzhang.com/" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://meterinfoapp.junxinzhang.com/" />
   <meta property="og:site_name" content="电表信息管理系统" />
   <meta property="og:title" content="电表信息管理系统 | 智能抄表 · OCR识别 · 移动采集" />
   <meta property="og:description" content="专业的电表信息管理解决方案。AI-OCR 智能识别，移动端现场采集，历史数据统计分析。" />
+  <meta property="og:image" content="https://meterinfoapp.junxinzhang.com/assets/screenshot.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="电表信息管理系统界面截图" />
   <meta property="og:locale" content="zh_CN" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://meterinfoapp.junxinzhang.com/" />
   <meta name="twitter:title" content="电表信息管理系统" />
   <meta name="twitter:description" content="智能抄表解决方案：OCR 识别、移动采集、数据统计分析。" />
+  <meta name="twitter:image" content="https://meterinfoapp.junxinzhang.com/assets/screenshot.png" />
+  <meta name="twitter:image:alt" content="电表信息管理系统界面截图" />
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png" />
   <link rel="icon" type="image/png" sizes="192x192" href="assets/icon.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="assets/icon.png" />
+  <link rel="manifest" href="manifest.json" />
 
   <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://cdn.tailwindcss.com" />
   <link rel="preconnect" href="https://cdn.jsdelivr.net" />
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="dns-prefetch" href="https://cdn.tailwindcss.com" />
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" />
 
   <!-- Stylesheets -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -53,9 +74,14 @@
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "#organization",
+        "@id": "https://meterinfoapp.junxinzhang.com/#organization",
         "name": "电表信息管理系统",
         "alternateName": "MeterInfo",
+        "url": "https://meterinfoapp.junxinzhang.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://meterinfoapp.junxinzhang.com/assets/favicon.png"
+        },
         "contactPoint": {
           "@type": "ContactPoint",
           "email": "jason2023zhang@gmail.com",
@@ -67,13 +93,30 @@
         ]
       },
       {
+        "@type": "WebSite",
+        "@id": "https://meterinfoapp.junxinzhang.com/#website",
+        "url": "https://meterinfoapp.junxinzhang.com/",
+        "name": "电表信息管理系统",
+        "description": "专业的电表信息管理解决方案，支持 OCR 智能识别、移动端采集、历史数据分析。",
+        "publisher": {
+          "@id": "https://meterinfoapp.junxinzhang.com/#organization"
+        },
+        "inLanguage": "zh-CN"
+      },
+      {
         "@type": "SoftwareApplication",
-        "@id": "#software",
+        "@id": "https://meterinfoapp.junxinzhang.com/#software",
         "name": "电表信息管理系统",
         "alternateName": "MeterInfo",
         "description": "专业的电表信息管理解决方案，支持 OCR 智能识别、移动端采集、历史数据分析。",
         "applicationCategory": "BusinessApplication",
         "operatingSystem": "Web, iOS, Android",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "CNY",
+          "availability": "https://schema.org/InStock"
+        },
         "featureList": [
           "多类型电表管理",
           "AI-OCR 智能识别",
@@ -81,11 +124,51 @@
           "历史数据统计",
           "权限角色管理",
           "图片压缩上传"
+        ],
+        "screenshot": "https://meterinfoapp.junxinzhang.com/assets/screenshot.png",
+        "softwareVersion": "1.0",
+        "author": {
+          "@id": "https://meterinfoapp.junxinzhang.com/#organization"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://meterinfoapp.junxinzhang.com/#webpage",
+        "url": "https://meterinfoapp.junxinzhang.com/",
+        "name": "电表信息管理系统 | 智能抄表 · OCR识别 · 移动采集",
+        "isPartOf": {
+          "@id": "https://meterinfoapp.junxinzhang.com/#website"
+        },
+        "about": {
+          "@id": "https://meterinfoapp.junxinzhang.com/#software"
+        },
+        "description": "专业的电表信息管理解决方案。支持公用表、专用表、用户表全类型管理，AI-OCR 智能识别电表读数，移动端 APP 现场采集，历史数据统计分析。",
+        "breadcrumb": {
+          "@id": "https://meterinfoapp.junxinzhang.com/#breadcrumb"
+        },
+        "inLanguage": "zh-CN",
+        "potentialAction": [
+          {
+            "@type": "ReadAction",
+            "target": ["https://meterinfoapp.junxinzhang.com/"]
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://meterinfoapp.junxinzhang.com/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "首页",
+            "item": "https://meterinfoapp.junxinzhang.com/"
+          }
         ]
       },
       {
         "@type": "FAQPage",
-        "@id": "#faq",
+        "@id": "https://meterinfoapp.junxinzhang.com/#faq",
         "mainEntity": [
           {
             "@type": "Question",

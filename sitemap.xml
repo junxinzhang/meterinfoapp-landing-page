@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://meterinfoapp.junxinzhang.com/</loc>
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://meterinfoapp.junxinzhang.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://meterinfoapp.junxinzhang.com/"/>
+    <image:image>
+      <image:loc>https://meterinfoapp.junxinzhang.com/assets/screenshot.png</image:loc>
+      <image:title>电表信息管理系统界面</image:title>
+      <image:caption>智能抄表解决方案 - OCR 识别、移动采集、数据统计分析</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Section anchors for better crawling -->
+  <url>
+    <loc>https://meterinfoapp.junxinzhang.com/#why</loc>
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://meterinfoapp.junxinzhang.com/#features</loc>
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://meterinfoapp.junxinzhang.com/#demo</loc>
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://meterinfoapp.junxinzhang.com/#architecture</loc>
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://meterinfoapp.junxinzhang.com/#faq</loc>
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://meterinfoapp.junxinzhang.com/#contact</loc>
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
